@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    background: #f1f1f1;
+    color: #000;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #f1f1f1;
+}
+
+.img {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 700px) {
+    .info{
+         display: block;
+         text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+}
+
+.con {
+    padding-top: 30px;
+    max-width: 750px;
+    margin: auto;
+}
+
+
+.cart {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-yellow {
+background: #fff9dc;
+}
+
+.bg-grean {
+background: #e5ffe7;
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+}    
+
+.from-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.from-group input,
+.from-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    font-style: normal;
+}
+
+.row {
+    display: flex;
+    margin-right: 20px;
+}
+
+.row > .from-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .from-group:last-child{
+    margin-right: 0;
+}
+
+
+.botn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.botn:hover {
+    opacity: 1;
+}
